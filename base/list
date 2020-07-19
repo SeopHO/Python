@@ -1,0 +1,37 @@
+num = ("one", "two", "three")
+print(num)
+#num.append("four") =ERROR
+print(num)
+#num.reverse() =ERROR
+print(num)
+print(type(num)) #type tuple
+
+num = ["one", "two", "three"]
+print(num)
+num.append("four")
+print(num)
+num.reverse()
+print(num)
+print(type(num)) #type list
+
+a = 100
+b = 3000
+c = False
+d = True
+
+N = None  #not exist.
+
+string_a = "LIKE STRING"
+print(string_a)
+print(a + b)
+
+print(type(num))
+
+hoho = {
+    "name":"seopHO",
+    "age":21
+} #type dictonary 
+print(hoho)
+print(hoho["name"])
+hoho["age"] = 3000
+print(type(hoho))
